@@ -87,11 +87,11 @@ public enum TapFont {
         
         switch self {
         
-        case .robotoThin: return "Roboto-Thin"
-        case .robotoLight: return "Roboto-Light"
-        case .robotoMedium: return "Roboto-Medium"
-        case .robotoRegular: return "Roboto-Regular"
-        case .robotoBold: return "Roboto-Bold"
+        case .robotoThin: return "Lato-Thin"
+        case .robotoLight: return "Lato-Light"
+        case .robotoMedium: return "Lato-Black"
+        case .robotoRegular: return "Lato-Regular"
+        case .robotoBold: return "Lato-Bold"
         
         case .arabicTajwalLight:     return "Tajawal-Light"
         case .arabicTajwalRegular:    return "Tajawal-Regular"

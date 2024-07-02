@@ -17,12 +17,11 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "TapFontKit-iOS",
-            resources: [.copy("TapFontKitResources/Roboto-Black.ttf"),
-                        .copy("TapFontKitResources/Roboto-Bold.ttf"),
-                        .copy("TapFontKitResources/Roboto-Light.ttf"),
-                        .copy("TapFontKitResources/Roboto-Medium.ttf"),
-                        .copy("TapFontKitResources/Roboto-Regular.ttf"),
-                        .copy("TapFontKitResources/Roboto-Thin.ttf"),
+            resources: [.copy("TapFontKitResources/Lato-Black.ttf"),
+                        .copy("TapFontKitResources/Lato-Bold.ttf"),
+                        .copy("TapFontKitResources/Lato-Light.ttf"),
+                        .copy("TapFontKitResources/Lato-Regular.ttf"),
+                        .copy("TapFontKitResources/Lato-Thin.ttf"),
                         .copy("TapFontKitResources/Tajawal-Black.ttf"),
                         .copy("TapFontKitResources/Tajawal-Bold.ttf"),
                         .copy("TapFontKitResources/Tajawal-ExtraBold.ttf"),
